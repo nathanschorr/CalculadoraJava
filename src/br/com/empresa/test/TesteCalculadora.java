@@ -25,7 +25,6 @@ public class TesteCalculadora {
 	public void somaNumeroComVirgula() {
 		calculadora.Somar(2.33);
 		assertEquals(calculadora.getResultado(), 2.33, 0);
-		
 	}
 
 	@Test
@@ -49,6 +48,7 @@ public class TesteCalculadora {
 		assertEquals(calculadora.getResultado(), 13, 0);
 		
 	}
+	
 	@Test
 	public void criaCalculadoraComValorSubtraiEVolta() {
 		calculadora = new Calculadora(10);
@@ -70,10 +70,5 @@ public class TesteCalculadora {
 		calculadora.Somar(5);
 		assertEquals(calculadora.getResultado(), 10, 0);
 	}             
-
 }
-
-
-
-	
 

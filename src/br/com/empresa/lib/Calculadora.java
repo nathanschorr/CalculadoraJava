@@ -19,6 +19,7 @@ public class Calculadora {
 	public double Somar(double valor) {
 		return this.resultado += valor;
 	}
+
 	
 	public double Dividir(double valor) {
 		return this.resultado /= valor;
@@ -31,8 +32,4 @@ public class Calculadora {
 	public double Multiplicacao(double valor) {
 		return this.resultado *= valor;
 	}
-
-
 }
-
-
